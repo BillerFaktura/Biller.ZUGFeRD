@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZUGFeRD@Biller", "ZUGFeRD@Biller\ZUGFeRD@Biller.csproj", "{7849B69E-C33F-41FE-BCA5-2C468169D204}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biller", "..\..\..\Visual Studio 2012\Projects\BillerV2\Biller\Biller.csproj", "{6C93775C-0207-4C88-8497-E8982E72132E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biller.Controls", "..\..\..\Visual Studio 2012\Projects\BillerV2\Biller.Controls\Biller.Controls.csproj", "{7F38E058-9C78-418F-8ACF-1CDD3A196EDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biller.Core", "..\..\..\Visual Studio 2012\Projects\BillerV2\Biller.Core\Biller.Core.csproj", "{1A5B3D3A-01A8-4946-8F7B-1DE9093B3022}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F6121069-536B-4688-8799-0E05BA24CDE2}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7849B69E-C33F-41FE-BCA5-2C468169D204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7849B69E-C33F-41FE-BCA5-2C468169D204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7849B69E-C33F-41FE-BCA5-2C468169D204}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7849B69E-C33F-41FE-BCA5-2C468169D204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7849B69E-C33F-41FE-BCA5-2C468169D204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7849B69E-C33F-41FE-BCA5-2C468169D204}.Release|x86.ActiveCfg = Release|Any CPU
+		{6C93775C-0207-4C88-8497-E8982E72132E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C93775C-0207-4C88-8497-E8982E72132E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C93775C-0207-4C88-8497-E8982E72132E}.Debug|x86.ActiveCfg = Debug|x86
+		{6C93775C-0207-4C88-8497-E8982E72132E}.Debug|x86.Build.0 = Debug|x86
+		{6C93775C-0207-4C88-8497-E8982E72132E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C93775C-0207-4C88-8497-E8982E72132E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C93775C-0207-4C88-8497-E8982E72132E}.Release|x86.ActiveCfg = Release|x86
+		{6C93775C-0207-4C88-8497-E8982E72132E}.Release|x86.Build.0 = Release|x86
+		{7F38E058-9C78-418F-8ACF-1CDD3A196EDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F38E058-9C78-418F-8ACF-1CDD3A196EDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F38E058-9C78-418F-8ACF-1CDD3A196EDD}.Debug|x86.ActiveCfg = Debug|x86
+		{7F38E058-9C78-418F-8ACF-1CDD3A196EDD}.Debug|x86.Build.0 = Debug|x86
+		{7F38E058-9C78-418F-8ACF-1CDD3A196EDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F38E058-9C78-418F-8ACF-1CDD3A196EDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F38E058-9C78-418F-8ACF-1CDD3A196EDD}.Release|x86.ActiveCfg = Release|x86
+		{7F38E058-9C78-418F-8ACF-1CDD3A196EDD}.Release|x86.Build.0 = Release|x86
+		{1A5B3D3A-01A8-4946-8F7B-1DE9093B3022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5B3D3A-01A8-4946-8F7B-1DE9093B3022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5B3D3A-01A8-4946-8F7B-1DE9093B3022}.Debug|x86.ActiveCfg = Debug|x86
+		{1A5B3D3A-01A8-4946-8F7B-1DE9093B3022}.Debug|x86.Build.0 = Debug|x86
+		{1A5B3D3A-01A8-4946-8F7B-1DE9093B3022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5B3D3A-01A8-4946-8F7B-1DE9093B3022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5B3D3A-01A8-4946-8F7B-1DE9093B3022}.Release|x86.ActiveCfg = Release|x86
+		{1A5B3D3A-01A8-4946-8F7B-1DE9093B3022}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

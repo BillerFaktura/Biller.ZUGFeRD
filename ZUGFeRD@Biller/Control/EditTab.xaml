@@ -1,0 +1,27 @@
+﻿<TabItem x:Class="ZUGFeRD_Biller.Control.EditTab"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+         xmlns:local="clr-namespace:ZUGFeRD_Biller.Control"
+         xmlns:controls="clr-namespace:Biller.Controls;assembly=Biller.Controls"
+         mc:Ignorable="d" 
+         MaxWidth="300" MinHeight="72" Style="{DynamicResource InnerBackstageTabCotrolItem}"
+         d:DesignHeight="300" d:DesignWidth="300">
+    <TabItem.Header>
+        <Grid>
+            <Grid Width="48" Margin="10,0,0,0" HorizontalAlignment="Left">
+                <Image/>
+            </Grid>
+            <Grid Margin="68,0,0,0">
+                <StackPanel Orientation="Vertical" VerticalAlignment="Center" Margin="0,0,0,5">
+                    <TextBlock Text="ZUGFeRD"/>
+                    <TextBlock Text="Generieren Sie die Zusatzdatei für ZUGFeRD Rechnungen" Foreground="DimGray" TextWrapping="Wrap" />
+                </StackPanel>
+            </Grid>
+        </Grid>
+    </TabItem.Header>
+    <controls:AnimatedScrollViewer>
+        <local:TabContent/>
+    </controls:AnimatedScrollViewer>
+</TabItem>
