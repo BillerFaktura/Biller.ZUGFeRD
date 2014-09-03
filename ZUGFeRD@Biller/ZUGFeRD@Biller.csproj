@@ -58,6 +58,7 @@
     <Compile Include="Control\TabContent.xaml.cs">
       <DependentUpon>TabContent.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Control\ViewModel.cs" />
     <Compile Include="EntryPoint.cs" />
     <Compile Include="Manager\ControlManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
